@@ -1,6 +1,6 @@
 baseurl: "/"
-languageCode: "en-us"
-title: "The title of your website"
+languageCode: "zh-cn"
+title: "甘湘华 | Xianghua Gan"
 theme: "hugo-lithium-theme"
 googleAnalytics: ""
 disqusShortname: ""
@@ -15,17 +15,17 @@ permalinks:
 
 menu:
   main:
-    - name: "About"
-      url: "/en/about/"
-      weight: 1
-    - name: "Blog"
-      url: "/en/"
-      weight: 2
     - name: "关于"
       url: "/cn/about/"
-      weight: 3
+      weight: 1
     - name: "博客"
       url: "/cn/"
+      weight: 2
+    - name: "About"
+      url: "/en/about/"
+      weight: 3
+    - name: "Blog"
+      url: "/en/"
       weight: 4
   en:
     - name: "Home"
@@ -66,42 +66,36 @@ menu:
     - name: "Project Home"
       url: "/cool/"
       weight: 2
-    - name: "Sample Page"
-      url: "/cool/sample/"
-      weight: 3
-    - name: "Github repo"
-      pre: "github"
-      url: "https://github.com/yihui/blogdown-yihui-template"
-      weight: 4
 
 params:
-  description: "Description of your website."
-  disqusURL: "http://yihui.name"
-  fullURL: "https://yihui.name"
+  description: "甘湘华的个人网站; Personal website of Xianghua Gan"
+  disqusURL: ""
+  fullURL: "https://sierxue.me"
   customCSS: ["css/custom.css"]
   customJS: ["js/center-img.js", "js/right-quote.js", "js/no-highlight.js", "js/fix-footnote.js"]
-  githubContentURL: "https://github.com/rbind/yihui.name/edit/master/content/"
+  githubContentURL: ""
 
   # options for highlight.js (version, additional languages, and theme)
-  highlightjsVersion: "9.9.0"
+  highlightjsVersion: "9.11.0"
+  highlightjsCDN: "//cdn.bootcss.com"
   highlightjsLang: ["r", "yaml", "tex"]
   highlightjsTheme: "github"
 
   social:
-    twitter: "xieyihui"
-    weibo: "谢益辉"
-    weibo_url: "yihuixie"
-    github: "yihui"
+    twitter: ""
+    weibo: ""
+    weibo_url: ""
+    github: "sierxue"
 
   logo:
     url: "logo.png"
     width: 50
     height: 50
-    alt: "Yihui Xie"
+    alt: "甘湘华 Xianghua Gan"
 
   author:
-    en: "Yihui Xie"
-    cn: "谢益辉"
+    en: "Xianghua Gan"
+    cn: "甘湘华"
 
   lang:
     edit:

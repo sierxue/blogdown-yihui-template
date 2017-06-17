@@ -5,6 +5,6 @@ disable_mathjax: true
 disable_highlight: true
 ---
 
-Welcome to my website!
+甘湘华的博客 (The blog of Xianghua Gan)
 
 A link to my [cool project](/cool/).
