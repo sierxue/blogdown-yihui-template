@@ -1,5 +1,5 @@
 baseurl: "/"
-languageCode: "zh-cn"
+languageCode: "en-us"
 title: "甘湘华 | Xianghua Gan"
 theme: "hugo-lithium-theme"
 googleAnalytics: ""
@@ -82,7 +82,6 @@ params:
   highlightjsTheme: "github"
 
   social:
-    twitter: ""
     weibo: ""
     weibo_url: ""
     github: "sierxue"
